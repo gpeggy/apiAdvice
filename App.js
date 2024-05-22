@@ -6,7 +6,7 @@ export default function App() {
     const res = await fetch("https://api.adviceslip.com/advice");
     const data = await res.json();
     setAdvice(data.slip.advice);
-    setCount((c) => c + 0);
+    setCount((c) => c + 1);
   }
   useEffect(function () {
     getAdvice();
