@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import {useState} from "react";
 export default function App() {
   const [advice, setAdvice] = useState("");
   const [count, setCount] = useState(0);
